@@ -69,3 +69,93 @@
     font-size: 30px;
     
 }
+/*Bptao*/
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button {
+    background-color: #cc680bb6; /* Green */
+    border-radius: 5px;
+    color: #ffefdbf8;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+/*Pagina 2 - Pag da calculadora */
+.back{
+    background-image: url("fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/*calculadora de ICM*/
+
+.tela1{
+    background-color: #ffad00;
+
+    box-shadow: 0px 0px 10px;
+
+    position:relative;
+
+    padding: 3em 2em;
+    
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 200px;
+    border-radius: 10px;
+  }
+  .botao{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    width: 95%;
+    height: 10%;
+    padding: 10px;
+    background-color:#fdf4bfb6;
+    
+    cursor: pointer;
+    border: no;
+    transform : translateY(25%);
+  }
+  #peso {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    border: none;
+    width: 95%;
+    font-size: 18px;
+  }
+  #altura {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    border: none;
+    width: 95%;
+    font-size: 18px;
+  }
+  #resultado {
+    text-align: center;
+    transform : translateY(50%);
+    font-size: 25px;
+    color: #f5f5f5;
+  }
+  h4{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #050505;
+  }
+  
