@@ -106,11 +106,15 @@
 }
 
 .button {
-    background-color: #eccc3bb6;
+    background-color:#ffad00;
     /* Green */
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
     border-radius: 5px;
-    color: #ffefdbf8;
+
+    color: #0a0704f8;
     padding: 15px 32px;
+    align-items: center;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -120,6 +124,14 @@
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+    
+}
+.button02{
+    align-items: center;
+    background-color:#ffad00;
+    border-radius: 5px;
+    
+    width: 100%;
 }
 
 
@@ -223,8 +235,11 @@ h4 {
 
 .botao-dieta {
     text-align: center;
-    color: #a30f0f;
+    color: #e2c8c8;
 
+}
+.botao-pdf{
+    align-items: center;
 }
 
 /*2ºpasso*/
