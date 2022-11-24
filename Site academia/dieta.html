@@ -5,16 +5,16 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calcular IMC</title>
+    <title>Dietas</title>
     <!--FavIcon-->
     <link href="imagens/logo.png" rel="icon">
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--barra de navegação-->
     <header class="fundo1">
         <div class="container">
@@ -27,11 +27,13 @@
 
                     <div class="col">
                         <div class="btn-group">
-                            <button class="button"><a href = calcular.html style="text-decoration: none;">Calcular IMC</a></button>
+                            <button class="button"><a href=calcular.html style="text-decoration: none;">Calcular
+                                    IMC</a></button>
                             <button class="button"><a href=dieta.html style="text-decoration: none;">Dietas</a></button>
-                            <button class="button"><a href="exercicios.html"style="text-decoration: none;">Exercicíos</a></button>
-                          
-                          </div>
+                            <button class="button"><a href="exercicios.html"
+                                    style="text-decoration: none;">Exercicíos</a></button>
+
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -40,14 +42,144 @@
 
 </head>
 
-<body>
+<body class="body-dieta">
+    <br>
+    <div class="dietas"><a name="Dietas de Herois"></a>
+
+        <h1 class="h1-dieta"><br><b>2º Passo</b> <br><b>Qual a sua dieta?</b><br><br></h1>
+
+        <br><br><br>
+        <p class="botao-dieta">
+            <a class="btn btn-dark btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1"> Ganhar </a>
+            <button class="btn btn-dark btn-lg" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                aria-controls="multiCollapseExample2">Manter </button>
+            <button class="btn btn-dark btn-lg" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample3">Perder</button>
 
 
-    
+            <!--Ganho de massa-->
+        </p>
+        <div class="row">
+            <div class="col">
+                <div class="collapse-multi-collapse" id="multiCollapseExample1">
+                    <div class="card">
+                        <h4 class="h4-dieta">Melhores maneiras para <b>Ganhar</b> massa corporal:</h4><br>
+                        <h4 class="h4-dieta02"><b>1. Consumir mais calorias do que gasta</b></h4>
+                        <p class="p-dieta"> é essencial para ganhar massa muscular de forma mais rápida, pois as
+                            calorias
+                            excedentes, juntamente com
+                            os treinos, irão permitir o aumento dos músculos.</p>
+                        <h4 class="h4-dieta02"><b>2. Não pular refeições</b></h4>
+                        <p class="p-dieta">Evitar pular refeições é importante para que seja possível atingir todas as
+                            calorias
+                            necessárias durante o dia, sem estimular possíveis perdas de massa magra durante um jejum
+                            prolongado. O
+                            ideal é que sejam feitas de 5 a 6 refeições por dia, com atenção redobrada no café da manhã,
+                            pré e
+                            pós-treino.</p>
+                        <h4 class="h4-dieta02"><b>3. Consumir mais proteínas</b></h4>
+                        <p class="p-dieta">Aumentar o consumo de proteínas é necessário para permitir o crescimento
+                            muscular, sendo
+                            importante que os alimentos fontes de proteínas sejam bem distribuídos ao longo do dia, e
+                            não concentradas
+                            em apenas 2 ou 3 refeições.</p>
+                        <h4 class="h4-dieta02"><b>4. Beber bastante água</b></h4>
+                        <p class="p-dieta">Beber bastante água é muito importante para estimular a hipertrofia, pois
+                            para as células
+                            musculares crescerem, é necessário mais água para preencher o seu tamanho maior. </p>
+                        <p></p>
+                        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample3"><a href="imagens/Ganho de peso.pdf"
+                                style="text-decoration: none;">PDF da Dieta Pronta</a></button>
+                    </div>
+                </div>
+            </div>
 
-<script src="js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+            <!--Manter peso -->
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card">
+                        <h4 class="h4-dieta">Melhores maneiras para <b>Manter</b> a massa corporal:</h4>
+                        <br>
+                        <h4 class="h4-dieta02"><b>1. Se manter ativo.</b></h4>
+                        <p class="p-dieta">Para manter um peso equilibrado, é necessário que a dieta seja balanceada e
+                            acompanhada
+                            por uma vida ativa, cheia de exercício.</p>
+                        <h4 class="h4-dieta02"><b>2.Não pular refeições</b></h4>
+                        <p class="p-dieta">Para ter hábitos alimentares saudáveis é necessário obter os nutrientes
+                            presentes nas
+                            três principais refeições do dia. Especialmente durante o café da manhã, porque representa
+                            entre 20 e 25%
+                            das calorias de que precisamos diariamente.</p>
+                        <h4 class="h4-dieta02"><b>3.A base das refeições são os vegetais</b></h4>
+                        <p class="p-dieta">Os legumes e vegetais sempre devem ser a porção principal do almoço e do
+                            jantar, pois
+                            eles darão mais saciedade, além de ter poucas calorias, além disso, os vegetais são ricos em
+                            fibras,
+                            vitaminas e minerais, que ajudam a melhorar o funcionamento do intestino, favorecendo a
+                            saúde da
+                            microbiota intestinal, melhorando o metabolismo e ajudando a desintoxicar o organismo,
+                            proporcionando
+                            energia e aumentando a sensação de bem estar.</p>
+                        <h4 class="h4-dieta02"><b>4.Consumir pequenas porções de carboidratos</b></h4>
+                        <p class="p-dieta">É recomendado consumir pequenas porções de carboidratos, de preferência
+                            integrais, em
+                            cada refeição, como pães, massas, arroz, farofa, bolos e tapioca.</p>
+                        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample3"><a href="imagens/Ganho de peso.pdf"
+                                style="text-decoration: none;">PDF da Dieta Pronta</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Perda de Peso-->
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card">
+                        <h4 class="h4-dieta">Melhores maneiras para <b>Perder</b> a massa corporal:</h4><br>
+                        <h4 class="h4-dieta02"><b>1. Diminuição a ingestao de calorias</b></h4>
+                        <p class="p-dieta">priorizar o consumo de alimentos ricos em fibras, como frutas, vegetais e
+                            cereais integrais, por exemplo. Esses alimentos prolongam a saciedade e diminuem a vontade
+                            de comer, favorecendo a perda de peso.</p>
+                        <h4 class="h4-dieta02"><b>2.Beber Bastante Agua</b></h4>
+                        <p class="p-dieta">Parece clichê, mas se todo mundo sabe que a água é essencial à vida e ao
+                            corpo.O consumo de água também está relacionado ao emagrecimento, primeiro porque é
+                            responsável pelo transporte de nutrientes às células do corpo e segundo, porque está
+                            relacionada a todos os metabolismos e processo do nosso organismo. </p>
+                        <h4 class="h4-dieta02"><b> 3.Praticar Atividade Fisica</b></h4>
+                        <p class="p-dieta">O importante aqui é se movimentar e por isso, o ideal é buscar qual tipo de
+                            exercício mais se enquadra à sua rotina e interesse.
+
+                            A prática de atividade física estimula o metabolismo, melhora respiração, concentração e até
+                            o intestino, contribuindo diretamente com emagrecimento.</p>
+                        <h4 class="h4-dieta02"><b>4.Consuma mais fibras</b></h4>
+                        <p class="p-dieta">Essas são grandes aliadas da saúde intestinal e imunológica, além de atuar
+                            diretamente na saciedade e controle da fome. Também podem atuar no controle do colesterol e
+                            dos níveis de açúcar no sangue, contribuindo com o emagrecimento.</p>
+                        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample3"><a href="imagens/Ganho de peso.pdf"
+                                style="text-decoration: none;">PDF da Dieta Pronta</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <br><br>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

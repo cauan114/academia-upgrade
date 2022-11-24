@@ -1,18 +1,20 @@
 /*fundo*/
-.fundo{
+.fundo {
 
     background-color: #ffad00;
-    backdrop-filter: brightness(90%);    
-    
+    backdrop-filter: brightness(90%);
+
 }
+
 /*Alinhamento de logo*/
-.fundo1{
+.fundo1 {
 
     background-color: #ffad00;
-    
-    
+
+
 }
-.logo{
+
+.logo {
     background-color: #ffad00;
     background-position: 100%;
     height: auto;
@@ -20,10 +22,12 @@
     margin-left: auto;
     margin-right: auto
 }
+
 /*item do navbar*/
 .btn-group .button {
-    background-color: #080807; /* Green */
-    box-shadow: 0 12px 16px 0 rgba(180, 6, 6, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #080807;
+    /* Green */
+    box-shadow: 0 12px 16px 0 rgba(180, 6, 6, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid rgb(2, 3, 2);
     color: white;
     font-style: red;
@@ -33,26 +37,27 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-   
-  }
-  
-  .btn-group .button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-  
-  .btn-group .button:hover {
+
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.btn-group .button:hover {
     background-color: #cc8f0b;
-  }
+}
 
 /*texto imagem*/
 
-.h3-imagem{
+.h3-imagem {
     text-align: center;
 }
 
 
 /*Card Textos*/
-.d-flex{
+.d-flex {
     background-color: #ffefdbf8;
     background-size: 100%;
 
@@ -69,13 +74,16 @@
     border-radius: 10px;
 
 }
-.card-title{
+
+.card-title {
     color: rgb(32, 32, 32);
 }
-.h1-atv{
+
+.h1-atv {
     text-align: center;
 }
-.p-card1{
+
+.p-card1 {
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -84,14 +92,17 @@
     color: #e27c00;
     text-align: justify;
     font-size: 30px;
-    
+
 }
+
 /*Bptao*/
 .button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 .button {
-    background-color: #eccc3bb6; /* Green */
+    background-color: #eccc3bb6;
+    /* Green */
     border-radius: 5px;
     color: #ffefdbf8;
     padding: 15px 32px;
@@ -101,40 +112,42 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
 }
 
 
 
 /*Pagina 2 - Pag da calculadora */
-.back{
+.back {
     background-image: url("fundo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 
 /*calculadora de ICM*/
 
-.tela1{
+.tela1 {
     background-color: #ffad00;
 
     box-shadow: 0px 0px 10px;
 
-    position:relative;
+    position: relative;
 
     padding: 3em 2em;
-    
+
     height: 20%;
     width: 50%;
     margin: auto;
     margin-bottom: 200px;
     border-radius: 10px;
-  }
-  .botao{
+}
+
+.botao {
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -142,38 +155,118 @@
     width: 95%;
     height: 10%;
     padding: 10px;
-    background-color:#fdf4bfb6;
-    
+    background-color: #fdf4bfb6;
+
     cursor: pointer;
     border: no;
-    transform : translateY(25%);
-  }
-  #peso {
+    transform: translateY(25%);
+}
+
+#peso {
     background-color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
     border: none;
     width: 95%;
     font-size: 18px;
-  }
-  #altura {
+}
+
+#altura {
     background-color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
     border: none;
     width: 95%;
     font-size: 18px;
-  }
-  #resultado {
+}
+
+#resultado {
     text-align: center;
-    transform : translateY(50%);
+    transform: translateY(50%);
     font-size: 30px;
     color: #080707;
-  }
-  h4{
+}
+
+h4 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #050505;
+}
+
+
+/*Terceira Pagina - Dietas*/
+.body-dieta {
+    background-image: url("fundo02.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Tabelas de informações*/
+.dietas {
+    align-items: center;
+    border: 5px#f5f5f5;
+    box-shadow: 0px 0px 10px;
+    background-color: #63636285;
+    position: relative;
+    padding: 4em 3em;
+    width: 80%;
+    height: 30%;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.botao-dieta {
+    text-align: center;
+    color: #a30f0f;
+
+}
+
+/*2ºpasso*/
+
+.h1-dieta {
+    text-align: center;
+    background-color: #4f4f4fd3;
+    box-shadow: 10px 5px 5px rgb(218, 166, 25);
+
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    color: #ffad00;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+/*letras de card*/
+
+
+.h4-dieta{
+    background-color: #f88f068c;
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #c45d5d;
+    
   }
-  
+  .h4-dieta02{
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    color: #1b1a19;
+  }
+  .p-dieta{
+    background-color: #ffffff1a;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    text-align:justify;
+    letter-spacing: 1px;
+    color: #000000;
+
+  }
