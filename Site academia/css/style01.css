@@ -1,9 +1,33 @@
+/*Inicio*/
+
+.fundo12{
+
+    background-color: #ffad00;
+    backdrop-filter: brightness(90%);
+    background-image: url("img/hero/hero-2.jpg");
+    margin: auto;
+    background-position: ceter;
+    background-size: cover;
+
+
+}
+
+/*Alinhamento de logo*/
+.fundo11{
+
+    background-color: #ffad00;
+    margin-top: 20%;
+
+}
+
+
+
 /*fundo*/
 .fundo {
 
     background-color: #ffad00;
     backdrop-filter: brightness(90%);
-    background-image: url("treino.jpg");
+    background-image: url("img/hero/hero-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
