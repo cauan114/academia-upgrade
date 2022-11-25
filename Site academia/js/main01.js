@@ -1,6 +1,6 @@
 //Calculadora//
 
-let botaoCalcular = document.getElementById(btn_calcular);
+let botaoCalcular = document.getElementById(btn_calcular);// btn_calcular é a junção de tudo para realizar o a função de calculo//
 function calculandoIMC(){
     let peso = document.getElementById("peso").value;
     let altura = document.getElementById("altura").value/100;
