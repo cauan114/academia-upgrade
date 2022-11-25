@@ -1,4 +1,35 @@
-/*Inicio*/
+/*inicio*/
+.inicio{
+    background-color: #ffad00;
+    backdrop-filter: brightness(90%);
+    background-image: url("img/fitness-1882721.jpg");
+    
+   
+    background-size: cover;
+}
+.tela02{
+    text-align: justify;
+    background-color: #3a3939d3;
+    box-shadow: 10px 25px 15px rgb(218, 166, 25);
+
+    padding: 4em 4em;
+
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    font-size: larger;
+    font-family: "Oswald", sans-serif;
+    border-radius: 15px;
+    color:  #ffad00;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+
+
+
+/*principal*/
 
 .fundo12{
 
